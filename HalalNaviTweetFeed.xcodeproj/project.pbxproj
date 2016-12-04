@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B64122EF1DF164500098819B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64122EE1DF164500098819B /* AppDelegate.swift */; };
+		B64122F41DF164500098819B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64122F21DF164500098819B /* Main.storyboard */; };
+		B64122F61DF164500098819B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64122F51DF164500098819B /* Assets.xcassets */; };
+		B64122F91DF164500098819B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64122F71DF164500098819B /* LaunchScreen.storyboard */; };
+		B64123041DF164500098819B /* HalalNaviTweetFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64123031DF164500098819B /* HalalNaviTweetFeedTests.swift */; };
+		B641230F1DF164500098819B /* HalalNaviTweetFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641230E1DF164500098819B /* HalalNaviTweetFeedUITests.swift */; };
+		B641231D1DF17B9A0098819B /* TweetFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641231C1DF17B9A0098819B /* TweetFeedTableViewController.swift */; };
+		B64123261DF17DAF0098819B /* TweetFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64123251DF17DAF0098819B /* TweetFeedTableViewCell.swift */; };
+		B641232A1DF1AB550098819B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64123291DF1AB550098819B /* Constant.swift */; };
+		B641232C1DF1D5770098819B /* RetweetFeedTableViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641232B1DF1D5770098819B /* RetweetFeedTableViewCellTableViewCell.swift */; };
+		B64D30C01DF1ECF600F479E2 /* UIViewController+CWPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64D30BF1DF1ECF600F479E2 /* UIViewController+CWPopup.swift */; };
+		B64D30C31DF1ED2E00F479E2 /* ImageDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B64D30C11DF1ED2E00F479E2 /* ImageDetailViewController.xib */; };
+		B64D30C41DF1ED2E00F479E2 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64D30C21DF1ED2E00F479E2 /* ImageDetailViewController.swift */; };
+		B64D30CD1DF2632500F479E2 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64D30CC1DF2632500F479E2 /* HTTPClient.swift */; };
+		B64D30D01DF2951500F479E2 /* String+getBase64.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64D30CF1DF2951500F479E2 /* String+getBase64.swift */; };
+		B64D30D21DF2966600F479E2 /* ClientData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64D30D11DF2966600F479E2 /* ClientData.swift */; };
+		B64D30D41DF2CF9500F479E2 /* HomeFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64D30D31DF2CF9500F479E2 /* HomeFeed.swift */; };
+		B6DABA331DF30FE900A24CAD /* String+toDateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DABA321DF30FE900A24CAD /* String+toDateTime.swift */; };
+		B6DABA351DF32F1300A24CAD /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DABA341DF32F1300A24CAD /* ImageLoader.swift */; };
+		B6DABA371DF3FD8F00A24CAD /* OfflineFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DABA361DF3FD8F00A24CAD /* OfflineFeed.swift */; };
+		B6DABA391DF4119700A24CAD /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DABA381DF4119700A24CAD /* Reachability.swift */; };
+		B6DABA3B1DF426AE00A24CAD /* RealmMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DABA3A1DF426AE00A24CAD /* RealmMigration.swift */; };
+		E1D8913CDF776DE7FDB26875 /* Pods_HalalNaviTweetFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCC55161A4040897905F526 /* Pods_HalalNaviTweetFeed.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B64123001DF164500098819B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B64122E31DF1644F0098819B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B64122EA1DF1644F0098819B;
+			remoteInfo = HalalNaviTweetFeed;
+		};
+		B641230B1DF164500098819B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B64122E31DF1644F0098819B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B64122EA1DF1644F0098819B;
+			remoteInfo = HalalNaviTweetFeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DCC55161A4040897905F526 /* Pods_HalalNaviTweetFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalalNaviTweetFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DF3984A3C7542092E8F513 /* Pods-HalalNaviTweetFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalalNaviTweetFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HalalNaviTweetFeed/Pods-HalalNaviTweetFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		B64122EB1DF164500098819B /* HalalNaviTweetFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalalNaviTweetFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64122EE1DF164500098819B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B64122F31DF164500098819B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B64122F51DF164500098819B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B64122F81DF164500098819B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B64122FA1DF164500098819B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64122FF1DF164500098819B /* HalalNaviTweetFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalalNaviTweetFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64123031DF164500098819B /* HalalNaviTweetFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalalNaviTweetFeedTests.swift; sourceTree = "<group>"; };
+		B64123051DF164500098819B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B641230A1DF164500098819B /* HalalNaviTweetFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalalNaviTweetFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B641230E1DF164500098819B /* HalalNaviTweetFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalalNaviTweetFeedUITests.swift; sourceTree = "<group>"; };
+		B64123101DF164500098819B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B641231C1DF17B9A0098819B /* TweetFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetFeedTableViewController.swift; sourceTree = "<group>"; };
+		B64123251DF17DAF0098819B /* TweetFeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetFeedTableViewCell.swift; sourceTree = "<group>"; };
+		B64123291DF1AB550098819B /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B641232B1DF1D5770098819B /* RetweetFeedTableViewCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetweetFeedTableViewCellTableViewCell.swift; sourceTree = "<group>"; };
+		B64D30BF1DF1ECF600F479E2 /* UIViewController+CWPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+CWPopup.swift"; sourceTree = "<group>"; };
+		B64D30C11DF1ED2E00F479E2 /* ImageDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageDetailViewController.xib; sourceTree = "<group>"; };
+		B64D30C21DF1ED2E00F479E2 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		B64D30CC1DF2632500F479E2 /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		B64D30CF1DF2951500F479E2 /* String+getBase64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+getBase64.swift"; sourceTree = "<group>"; };
+		B64D30D11DF2966600F479E2 /* ClientData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientData.swift; sourceTree = "<group>"; };
+		B64D30D31DF2CF9500F479E2 /* HomeFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFeed.swift; sourceTree = "<group>"; };
+		B6DABA321DF30FE900A24CAD /* String+toDateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+toDateTime.swift"; sourceTree = "<group>"; };
+		B6DABA341DF32F1300A24CAD /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		B6DABA361DF3FD8F00A24CAD /* OfflineFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineFeed.swift; sourceTree = "<group>"; };
+		B6DABA381DF4119700A24CAD /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		B6DABA3A1DF426AE00A24CAD /* RealmMigration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmMigration.swift; sourceTree = "<group>"; };
+		F05E9B4556B75FD003DA39F7 /* Pods-HalalNaviTweetFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalalNaviTweetFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-HalalNaviTweetFeed/Pods-HalalNaviTweetFeed.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B64122E81DF1644F0098819B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D8913CDF776DE7FDB26875 /* Pods_HalalNaviTweetFeed.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64122FC1DF164500098819B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64123071DF164500098819B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C8DEBAB5845B777B4ADCC47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DCC55161A4040897905F526 /* Pods_HalalNaviTweetFeed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D880E59BBDFCD1C127F9456 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98DF3984A3C7542092E8F513 /* Pods-HalalNaviTweetFeed.debug.xcconfig */,
+				F05E9B4556B75FD003DA39F7 /* Pods-HalalNaviTweetFeed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B64122E21DF1644F0098819B = {
+			isa = PBXGroup;
+			children = (
+				B64122ED1DF164500098819B /* HalalNaviTweetFeed */,
+				B64123021DF164500098819B /* HalalNaviTweetFeedTests */,
+				B641230D1DF164500098819B /* HalalNaviTweetFeedUITests */,
+				B64122EC1DF164500098819B /* Products */,
+				7D880E59BBDFCD1C127F9456 /* Pods */,
+				0C8DEBAB5845B777B4ADCC47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B64122EC1DF164500098819B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B64122EB1DF164500098819B /* HalalNaviTweetFeed.app */,
+				B64122FF1DF164500098819B /* HalalNaviTweetFeedTests.xctest */,
+				B641230A1DF164500098819B /* HalalNaviTweetFeedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B64122ED1DF164500098819B /* HalalNaviTweetFeed */ = {
+			isa = PBXGroup;
+			children = (
+				B64123201DF17BB70098819B /* Model */,
+				B64123211DF17BDF0098819B /* View */,
+				B64123221DF17BE60098819B /* Controller */,
+				B64123331DF1E4CE0098819B /* Custom View */,
+				B64D30C51DF1ED5400F479E2 /* Extension */,
+				B64123231DF17C0B0098819B /* Supporting Files */,
+				B64122F51DF164500098819B /* Assets.xcassets */,
+				B64122EE1DF164500098819B /* AppDelegate.swift */,
+				B64122FA1DF164500098819B /* Info.plist */,
+			);
+			path = HalalNaviTweetFeed;
+			sourceTree = "<group>";
+		};
+		B64123021DF164500098819B /* HalalNaviTweetFeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				B64123031DF164500098819B /* HalalNaviTweetFeedTests.swift */,
+				B64123051DF164500098819B /* Info.plist */,
+			);
+			path = HalalNaviTweetFeedTests;
+			sourceTree = "<group>";
+		};
+		B641230D1DF164500098819B /* HalalNaviTweetFeedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B641230E1DF164500098819B /* HalalNaviTweetFeedUITests.swift */,
+				B64123101DF164500098819B /* Info.plist */,
+			);
+			path = HalalNaviTweetFeedUITests;
+			sourceTree = "<group>";
+		};
+		B64123201DF17BB70098819B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B64D30D11DF2966600F479E2 /* ClientData.swift */,
+				B64D30D31DF2CF9500F479E2 /* HomeFeed.swift */,
+				B6DABA361DF3FD8F00A24CAD /* OfflineFeed.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B64123211DF17BDF0098819B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B64122F71DF164500098819B /* LaunchScreen.storyboard */,
+				B64122F21DF164500098819B /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B64123221DF17BE60098819B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B641231C1DF17B9A0098819B /* TweetFeedTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B64123231DF17C0B0098819B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B64123291DF1AB550098819B /* Constant.swift */,
+				B64D30CC1DF2632500F479E2 /* HTTPClient.swift */,
+				B6DABA341DF32F1300A24CAD /* ImageLoader.swift */,
+				B6DABA381DF4119700A24CAD /* Reachability.swift */,
+				B6DABA3A1DF426AE00A24CAD /* RealmMigration.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B64123241DF17D1A0098819B /* CustomViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B64123251DF17DAF0098819B /* TweetFeedTableViewCell.swift */,
+				B641232B1DF1D5770098819B /* RetweetFeedTableViewCellTableViewCell.swift */,
+			);
+			name = CustomViewCell;
+			sourceTree = "<group>";
+		};
+		B64123331DF1E4CE0098819B /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				B64123241DF17D1A0098819B /* CustomViewCell */,
+				B64D30C11DF1ED2E00F479E2 /* ImageDetailViewController.xib */,
+				B64D30C21DF1ED2E00F479E2 /* ImageDetailViewController.swift */,
+			);
+			name = "Custom View";
+			sourceTree = "<group>";
+		};
+		B64D30C51DF1ED5400F479E2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B64D30BF1DF1ECF600F479E2 /* UIViewController+CWPopup.swift */,
+				B64D30CF1DF2951500F479E2 /* String+getBase64.swift */,
+				B6DABA321DF30FE900A24CAD /* String+toDateTime.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B64122EA1DF1644F0098819B /* HalalNaviTweetFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64123131DF164500098819B /* Build configuration list for PBXNativeTarget "HalalNaviTweetFeed" */;
+			buildPhases = (
+				19B46D076A2B6283D39E8E60 /* [CP] Check Pods Manifest.lock */,
+				B64122E71DF1644F0098819B /* Sources */,
+				B64122E81DF1644F0098819B /* Frameworks */,
+				B64122E91DF1644F0098819B /* Resources */,
+				D45D09864BC72BDF4F7BCF8B /* [CP] Embed Pods Frameworks */,
+				6B2D7DBF77A34D667E3A64B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HalalNaviTweetFeed;
+			productName = HalalNaviTweetFeed;
+			productReference = B64122EB1DF164500098819B /* HalalNaviTweetFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B64122FE1DF164500098819B /* HalalNaviTweetFeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64123161DF164500098819B /* Build configuration list for PBXNativeTarget "HalalNaviTweetFeedTests" */;
+			buildPhases = (
+				B64122FB1DF164500098819B /* Sources */,
+				B64122FC1DF164500098819B /* Frameworks */,
+				B64122FD1DF164500098819B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B64123011DF164500098819B /* PBXTargetDependency */,
+			);
+			name = HalalNaviTweetFeedTests;
+			productName = HalalNaviTweetFeedTests;
+			productReference = B64122FF1DF164500098819B /* HalalNaviTweetFeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B64123091DF164500098819B /* HalalNaviTweetFeedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64123191DF164500098819B /* Build configuration list for PBXNativeTarget "HalalNaviTweetFeedUITests" */;
+			buildPhases = (
+				B64123061DF164500098819B /* Sources */,
+				B64123071DF164500098819B /* Frameworks */,
+				B64123081DF164500098819B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B641230C1DF164500098819B /* PBXTargetDependency */,
+			);
+			name = HalalNaviTweetFeedUITests;
+			productName = HalalNaviTweetFeedUITests;
+			productReference = B641230A1DF164500098819B /* HalalNaviTweetFeedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B64122E31DF1644F0098819B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Syakiruddin Yusof";
+				TargetAttributes = {
+					B64122EA1DF1644F0098819B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = KQQJF4427W;
+					};
+					B64122FE1DF164500098819B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = KQQJF4427W;
+						TestTargetID = B64122EA1DF1644F0098819B;
+					};
+					B64123091DF164500098819B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = KQQJF4427W;
+						TestTargetID = B64122EA1DF1644F0098819B;
+					};
+				};
+			};
+			buildConfigurationList = B64122E61DF1644F0098819B /* Build configuration list for PBXProject "HalalNaviTweetFeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B64122E21DF1644F0098819B;
+			productRefGroup = B64122EC1DF164500098819B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B64122EA1DF1644F0098819B /* HalalNaviTweetFeed */,
+				B64122FE1DF164500098819B /* HalalNaviTweetFeedTests */,
+				B64123091DF164500098819B /* HalalNaviTweetFeedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B64122E91DF1644F0098819B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64D30C31DF1ED2E00F479E2 /* ImageDetailViewController.xib in Resources */,
+				B64122F91DF164500098819B /* LaunchScreen.storyboard in Resources */,
+				B64122F61DF164500098819B /* Assets.xcassets in Resources */,
+				B64122F41DF164500098819B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64122FD1DF164500098819B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64123081DF164500098819B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19B46D076A2B6283D39E8E60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B2D7DBF77A34D667E3A64B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HalalNaviTweetFeed/Pods-HalalNaviTweetFeed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D45D09864BC72BDF4F7BCF8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HalalNaviTweetFeed/Pods-HalalNaviTweetFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B64122E71DF1644F0098819B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DABA351DF32F1300A24CAD /* ImageLoader.swift in Sources */,
+				B6DABA371DF3FD8F00A24CAD /* OfflineFeed.swift in Sources */,
+				B64123261DF17DAF0098819B /* TweetFeedTableViewCell.swift in Sources */,
+				B64122EF1DF164500098819B /* AppDelegate.swift in Sources */,
+				B641232C1DF1D5770098819B /* RetweetFeedTableViewCellTableViewCell.swift in Sources */,
+				B64D30C41DF1ED2E00F479E2 /* ImageDetailViewController.swift in Sources */,
+				B64D30CD1DF2632500F479E2 /* HTTPClient.swift in Sources */,
+				B64D30D41DF2CF9500F479E2 /* HomeFeed.swift in Sources */,
+				B641232A1DF1AB550098819B /* Constant.swift in Sources */,
+				B641231D1DF17B9A0098819B /* TweetFeedTableViewController.swift in Sources */,
+				B64D30D21DF2966600F479E2 /* ClientData.swift in Sources */,
+				B64D30D01DF2951500F479E2 /* String+getBase64.swift in Sources */,
+				B6DABA331DF30FE900A24CAD /* String+toDateTime.swift in Sources */,
+				B6DABA391DF4119700A24CAD /* Reachability.swift in Sources */,
+				B6DABA3B1DF426AE00A24CAD /* RealmMigration.swift in Sources */,
+				B64D30C01DF1ECF600F479E2 /* UIViewController+CWPopup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64122FB1DF164500098819B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64123041DF164500098819B /* HalalNaviTweetFeedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64123061DF164500098819B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B641230F1DF164500098819B /* HalalNaviTweetFeedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B64123011DF164500098819B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B64122EA1DF1644F0098819B /* HalalNaviTweetFeed */;
+			targetProxy = B64123001DF164500098819B /* PBXContainerItemProxy */;
+		};
+		B641230C1DF164500098819B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B64122EA1DF1644F0098819B /* HalalNaviTweetFeed */;
+			targetProxy = B641230B1DF164500098819B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B64122F21DF164500098819B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B64122F31DF164500098819B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B64122F71DF164500098819B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B64122F81DF164500098819B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B64123111DF164500098819B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B64123121DF164500098819B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B64123141DF164500098819B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DF3984A3C7542092E8F513 /* Pods-HalalNaviTweetFeed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HalalNaviTweetFeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MSyakir.HalalNaviTweetFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B64123151DF164500098819B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05E9B4556B75FD003DA39F7 /* Pods-HalalNaviTweetFeed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HalalNaviTweetFeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MSyakir.HalalNaviTweetFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		B64123171DF164500098819B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HalalNaviTweetFeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MSyakir.HalalNaviTweetFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HalalNaviTweetFeed.app/HalalNaviTweetFeed";
+			};
+			name = Debug;
+		};
+		B64123181DF164500098819B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HalalNaviTweetFeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MSyakir.HalalNaviTweetFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HalalNaviTweetFeed.app/HalalNaviTweetFeed";
+			};
+			name = Release;
+		};
+		B641231A1DF164500098819B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HalalNaviTweetFeedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MSyakir.HalalNaviTweetFeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HalalNaviTweetFeed;
+			};
+			name = Debug;
+		};
+		B641231B1DF164500098819B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HalalNaviTweetFeedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MSyakir.HalalNaviTweetFeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HalalNaviTweetFeed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B64122E61DF1644F0098819B /* Build configuration list for PBXProject "HalalNaviTweetFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64123111DF164500098819B /* Debug */,
+				B64123121DF164500098819B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64123131DF164500098819B /* Build configuration list for PBXNativeTarget "HalalNaviTweetFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64123141DF164500098819B /* Debug */,
+				B64123151DF164500098819B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64123161DF164500098819B /* Build configuration list for PBXNativeTarget "HalalNaviTweetFeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64123171DF164500098819B /* Debug */,
+				B64123181DF164500098819B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64123191DF164500098819B /* Build configuration list for PBXNativeTarget "HalalNaviTweetFeedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B641231A1DF164500098819B /* Debug */,
+				B641231B1DF164500098819B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B64122E31DF1644F0098819B /* Project object */;
+}
