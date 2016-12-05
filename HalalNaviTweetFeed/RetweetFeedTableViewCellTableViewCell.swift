@@ -28,6 +28,21 @@ class RetweetFeedTableViewCellTableViewCell: UITableViewCell {
         descriptionImageView.layer.cornerRadius = 8.0
         userProfileImageView.clipsToBounds = true
         descriptionImageView.clipsToBounds = true
+        
+        if(Constant.Device.IS_IPHONE_5 == true){
+            userNameLabel.setSizeFont(15)
+            retweetLabel.setSizeFont(12)
+            screenNameLabel.setSizeFont(12)
+            descriptionLabel.setSizeFont(15)
+            createdAtLabel.setSizeFont(12)
+        }
+        if(Constant.Device.IS_IPHONE_4_OR_LESS == true){
+            userNameLabel.setSizeFont(13)
+            retweetLabel.setSizeFont(10)
+            screenNameLabel.setSizeFont(10)
+            descriptionLabel.setSizeFont(13)
+            createdAtLabel.setSizeFont(10)
+        }
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
